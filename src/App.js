@@ -37,7 +37,7 @@ function App() {
       <main>
 
 
-
+        <h1>WOOP WOOP IM A TITLE YOU SHOULD DELETE WEEE</h1>
         <h3>Search for a city:</h3>
         <form onSubmit={(e) => handleSubmit(e)}>
           <input
