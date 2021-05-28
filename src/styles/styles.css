@@ -1,0 +1,164 @@
+
+  @media screen and  (max-width: 1200px) {
+    .btn-addTodo {  margin-top: 3.5%;  }
+    .input { width: 70%; }
+}  
+
+body {
+    margin-top: 12%;
+    margin-bottom: 12%;
+      }
+
+.todo-list {
+    max-height: 14.5rem;
+    overflow-y: auto; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: #d4c1e7;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    padding: 1rem 1rem 1rem 0.6rem;
+    border-bottom: 0.0001rem solid white;
+    border-top: 0.001rem solid white;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 3.5rem;
+    cursor: pointer;
+  
+}
+ .outer-box {
+    width: 50%; 
+    margin: 2% auto;
+}
+
+.box {
+    background: rgb(168, 37, 168);
+    color: white;
+    min-width: 50%;
+    height: 11rem;
+    width: 50vw;
+
+}
+
+h1 {
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+    padding: 0.6rem 0.6rem 0.6rem 0;
+    text-align: center;
+}
+
+.text-addTodo {
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+input[type=text] {
+    padding: 0.6rem;
+    min-width: 50%;
+    border-radius: 0.5rem;
+    border: 0rem;
+    font-size: 0.9rem;
+   
+}
+
+input:hover {
+    border: 0.1rem solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn-addTodo {
+    background-color: blue;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    margin-left: 0.9rem;
+    cursor: pointer;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+/* Weather */ 
+
+main {
+    text-align: center; 
+    width: 100%;
+}
+
+/* main input {
+  
+
+} */
+
+main button {
+ font-size: 1rem;
+ font-weight: 500;
+ cursor: pointer; 
+ background-color: blue;
+ color: white;
+ font-size: 0.9rem;
+ font-weight: 600;
+ border: none;
+ padding: 0.6rem;
+ border-radius: 0.4rem;
+ margin-left: 0.9rem;
+ cursor: pointer;
+}
+
+article {
+    justify-content: space-between;
+  
+}
+
+article ul li {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+h3 {
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+    padding: 0.6rem 0.6rem 0.6rem 0;
+    text-align: center;
+}
+
+
+
